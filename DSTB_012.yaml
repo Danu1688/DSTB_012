@@ -1,5 +1,5 @@
 proxies:
-- name: danu11_LiveIKD
+- name: danu11_LiveIKD12
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -12,7 +12,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: ikd.sshpremium.my.id
-- name: danuWs11_VisionCtn
+- name: danuWs11_LiveCtn12
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -25,7 +25,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
-- name: danuWs01_VisionCtn
+- name: danuWs01_LiveCtn12
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -38,7 +38,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
-- name: danuWs14_VisionDo
+- name: danuWs14_LiveDo12
   type: trojan
   server: beacon.liveon.id
   port: 443
