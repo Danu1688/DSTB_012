@@ -1,5 +1,31 @@
 proxies:
-- name: danu11_LiveIKD12
+- name: danu11_LiveIKD12a
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 81b6c9dc-a684-4a89-9b99-2a8918733000
+  udp: true
+  sni: ikd.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: ikd.sshpremium.my.id
+- name: danu11_LiveIKD12b
+  type: trojan
+  server: 172.67.139.111
+  port: 443
+  password: 81b6c9dc-a684-4a89-9b99-2a8918733000
+  udp: true
+  sni: ikd.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: ikd.sshpremium.my.id
+- name: danu11_LiveIKD12c
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -12,4 +38,3 @@ proxies:
     path: "/trojanws"
     headers:
       Host: ikd.sshpremium.my.id
-
