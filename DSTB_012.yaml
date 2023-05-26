@@ -1,4 +1,43 @@
 proxies:
+- name: danu011_LiveDO012a
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: c655d352-1d1c-4c96-96a3-ab6bda704392
+  udp: true
+  sni: sgdo1.premserver.biz.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sgdo1.premserver.biz.id
+- name: danu011_LiveDO012b
+  type: trojan
+  server: 172.67.139.111
+  port: 443
+  password: c655d352-1d1c-4c96-96a3-ab6bda704392
+  udp: true
+  sni: sgdo1.premserver.biz.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sgdo1.premserver.biz.id
+- name: danu011_LiveDO012c
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: c655d352-1d1c-4c96-96a3-ab6bda704392
+  udp: true
+  sni: sgdo1.premserver.biz.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sgdo1.premserver.biz.id
 - name: danu11_LiveIKD12a
   type: trojan
   server: 104.21.8.121
