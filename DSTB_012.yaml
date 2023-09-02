@@ -1,4 +1,17 @@
 proxies:
+- name: Gatot_LiveDO_1
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: bd06869e-03c1-4ee0-82fd-b2207674dec9
+  udp: true
+  sni: sgdo2.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xraytrojanws
+    headers:
+      Host: sgdo2.myserver-prem.xyz
 - name: Gatot1_LiveDO_1
   type: trojan
   server: 104.21.8.121
