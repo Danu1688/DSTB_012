@@ -1,9 +1,9 @@
 proxies:
-- name: DanuDstbSvr1_LiveDO_1
+- name: Gatot1_LiveDO_1
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
-  password: 8043a1f2-43be-4e9c-b493-e3afdec54da8
+  password: bdbbe458-0ba4-4701-a36b-b6d1a8e30ea4
   udp: true
   sni: danu529.foryou-ssh.my.id
   skip-cert-verify: true
@@ -14,7 +14,7 @@ proxies:
       Host: danu529.foryou-ssh.my.id
 - name: Gatot_LiveDO_1
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   password: bd06869e-03c1-4ee0-82fd-b2207674dec9
   udp: true
@@ -25,11 +25,11 @@ proxies:
     path: /xraytrojanws
     headers:
       Host: sgdo2.myserver-prem.xyz
-- name: Gatot1_LiveDO_1
+- name: DanuDstbSvr1_LiveDO_1
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
-  password: bdbbe458-0ba4-4701-a36b-b6d1a8e30ea4
+  password: 8043a1f2-43be-4e9c-b493-e3afdec54da8
   udp: true
   sni: danu529.foryou-ssh.my.id
   skip-cert-verify: true
